@@ -1,0 +1,23 @@
+{%extends 'all-news/base.html'%}
+{% block content %}
+{{block.super}}
+
+
+<div class="container">
+    {% for news_item in news%}
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+            <h2 class="text-center"><u>{{news_item.title}}</u> by {{news_item.editor}}</h2>
+            <h4 class="text-center">{{news_item.post}}</h4>
+        </div>
+    </div>
+    {%empty%}
+    <div class="row">
+        <div class="col-xs-6 col-md-6 col-lg-6">
+            <h2 class="text-center">There are no news on this day</h2>
+        </div>
+    </div>
+    {%endfor%}
+
+</div>
+{% endblock %}
