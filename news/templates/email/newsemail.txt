@@ -1,0 +1,2 @@
+Hello {{name}}
+Welcome to Moringa Tribune Newsletter. You will find the most exciting news about Moringa.
