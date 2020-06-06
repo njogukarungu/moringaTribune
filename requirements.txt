@@ -3,7 +3,7 @@ asn1crypto==0.24.0
 click==7.1.1
 cryptography==2.1.4
 decorator==4.4.2
-Django==1.11
+Django==1.11.29
 django-bootstrap==0.2.4
 django-bootstrap3==12.1.0
 dominate==2.5.1
